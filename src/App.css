@@ -1,0 +1,69 @@
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.Div_app
+{
+  width: 100%;
+  height: 100%;
+   background-color: red;
+}
+.Sub_Header
+{
+  width: 100vw;
+  height: 9.537vh;
+  background-color: blue;
+}
+.General_Container
+{
+  height: auto;
+  width: 100vw;
+  display: flex;
+  align-items: start;
+  flex-direction: row;
+}
+.Main_Div
+{
+  height: 5200px;
+  width: 79.063vw;
+  background-color: green;
+}
+.MainRight_Div
+{
+  height: 79.63vh;
+  width: 20.938vw;
+  background-color: chartreuse;
+}
